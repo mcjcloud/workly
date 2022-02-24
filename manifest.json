@@ -1,0 +1,13 @@
+{
+  "name": "Workly",
+  "description": "Workona but free",
+  "version": "0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "permissions": ["storage", "tabs"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
